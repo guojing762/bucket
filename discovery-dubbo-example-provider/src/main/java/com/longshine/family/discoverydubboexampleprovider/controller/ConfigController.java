@@ -11,7 +11,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 @RequestMapping("config")
 public class ConfigController {
 
-    @NacosValue(value = "${demo.service.name:lemon}", autoRefreshed = true)
+    @NacosValue(value = "${my.name:lemon}", autoRefreshed = true)
     private String useLocalCache;
 
     @RequestMapping(value = "/get", method = GET)
