@@ -8,7 +8,7 @@
         <version>2.1.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.longshine.family</groupId>
+    <groupId>com.guojing.family</groupId>
     <artifactId>discovery-dubbo-example-provider</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>discovery-dubbo-example-provider</name>
@@ -26,7 +26,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.longshine.family</groupId>
+            <groupId>com.guojing.family</groupId>
             <artifactId>discovery-dubbo-example-facade</artifactId>
             <version>${facade.version}</version>
         </dependency>
@@ -42,6 +42,11 @@
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
             <version>2.6.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
         <dependency>

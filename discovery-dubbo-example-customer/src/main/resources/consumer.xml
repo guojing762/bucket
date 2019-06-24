@@ -19,11 +19,11 @@
     <dubbo:registry address="nacos://172.22.3.104:8848"/>
 
     <!-- 使用注解方式创建远程服务代理-->
-    <dubbo:annotation package="com.longshine.family.discoverydubboexamplecustomer.customer"/>
+    <dubbo:annotation package="com.guojing.family.discoverydubboexamplecustomer.customer"/>
 
     <!--声明服务引用，与服务声明接口类型一致-->
     <!--<dubbo:reference interface="com.practice.springboot.dubbo.provider.SayHelloImpl" id="SayHelloImpl"/>-->
 
-    <!--<dubbo:reference id="demoService" interface="com.longshine.family.discoverydubboexamplefacade.facade.DemoService" version="1.0"/>-->
+    <!--<dubbo:reference id="demoService" interface="com.guojing.family.discoverydubboexamplefacade.facade.DemoService" version="1.0"/>-->
 
 </beans>

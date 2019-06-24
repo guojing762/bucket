@@ -8,7 +8,7 @@
         <version>2.1.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.longshine.family</groupId>
+    <groupId>com.guojing.family</groupId>
     <artifactId>discovery-dubbo-example-customer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>discovery-dubbo-example-customer</name>
@@ -30,7 +30,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.longshine.family</groupId>
+            <groupId>com.guojing.family</groupId>
             <artifactId>discovery-dubbo-example-facade</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
@@ -65,12 +65,29 @@
             <artifactId>dubbo</artifactId>
             <version>2.6.5</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
 
         <!-- Alibaba Spring Context extension -->
         <dependency>
             <groupId>com.alibaba.spring</groupId>
             <artifactId>spring-context-support</artifactId>
             <version>1.0.2</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.alibaba.csp/sentinel-dubbo-adapter -->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-dubbo-adapter</artifactId>
+            <version>1.5.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-transport-simple-http</artifactId>
+            <version>1.5.2</version>
         </dependency>
 
     </dependencies>
